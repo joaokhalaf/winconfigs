@@ -17,4 +17,12 @@ return {
 
   window_close_confirmation = "NeverPrompt",
 
+  keys = {
+  {
+    key = "q",
+    mods = "ALT",
+    action = wezterm.action.QuitApplication,
+  },
+}
+
 }
